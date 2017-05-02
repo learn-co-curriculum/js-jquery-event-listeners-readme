@@ -26,7 +26,7 @@ describe('Selectors', () => {
       window.pressIt();
 
       const input = window.$('#typing');
-      const event = window.$.Event('keydown', { which: 71 })
+      const event = window.$.Event('keydown', { which: 103 })
       input.trigger(event)
 
       expect(window.alert).toHaveBeenCalled()
